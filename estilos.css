@@ -636,7 +636,7 @@ html{
     .art1{
         height: 700px;
         width: 100%;
-        background-image: url(/fotos/fondo2.jpg);
+        background-image: url(/fotosGeneral/fondo2.jpg);
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -652,7 +652,7 @@ html{
     .art2{
         height: 700px;
         width: 100%;
-        background-image: url(/fotos/fondo1.jpg);
+        background-image: url(/fotosGeneral/fondo1.jpg);
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -755,7 +755,7 @@ html{
         justify-content: center;
         text-align: center;
         margin-top: 50px;
-        width: 32%;
+        width: 33%;
         height: 70px;
 
     }
@@ -779,15 +779,40 @@ html{
     }
 }
 
+
+
 @media only screen and (min-width:1px){
+    .glaciar{
+        width: 100%;
+        height: 300px;
+        background-image: url(/fotosGeneral/glaciar.jpg);
+        background-size: cover;
+    }
+
+    .lugares{
+        width: 100%;
+        height: 270px;
+    }
+
+    .lugar1 p{
+        font-family: 'Poiret One', cursive;
+        text-align: center;
+        font-size: 15px;
+        color: rgb(39, 43, 46);
+        padding: 40px 0px;
+    }
+    
     section{
         background-color: white;
-        height: 2190px;
+        background-size: cover;
+        width: 100%;
+        height: 100px;
         padding: 35px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(14, 150px);
     }
+
 
     .item{
         border: 2px solid white;
@@ -798,87 +823,87 @@ html{
     }
 
     .blea{
-        background-image: url(/fotos/Bañado\ la\ Estrella.jpeg);
+        background-image: url(/fotosDestinos/Bañado\ la\ Estrella.jpeg);
         grid-column: 1/2;
         grid-row: 1/2;
     }
 
     .cdia{
-        background-image: url(/fotos/Cataratas\ del\ Iguazu.jpeg);
+        background-image: url(fotosDestinos/Cataratas\ del\ Iguazu.jpeg);
         grid-column: 1/2;
         grid-row: 2/3;
     }
 
     .cdaa{
-        background-image: url(/fotos/Cañon\ de\ Atuel.jpeg);
+        background-image: url(/fotosDestinos/Cañon\ de\ Atuel.jpeg);
         grid-column: 1/2;
         grid-row: 3/4;
     }
 
     .cca{
-        background-image: url(/fotos/Cusi\ Cusi.jpeg);
+        background-image: url(/fotosDestinos/Cusi\ Cusi.jpeg);
         grid-column: 1/2;
         grid-row: 4/5;
     }
 
     .eca{
-        background-image: url(/fotos/El\ Chaltén.png);
+        background-image: url(/fotosDestinos/El\ Chaltén.png);
         grid-column: 1/2;
         grid-row: 5/6;
     }
 
     .eha{
-        background-image: url(/fotos/El\ Hornocal.jpeg);
+        background-image: url(/fotosDestinos/El\ Hornocal.jpeg);
         grid-column: 1/2;
         grid-row: 6/7;
     }
 
-    .mdqa{
-        background-image: url(/fotos/Mar\ del\ Plata.jpeg);
+    .gpma{
+        background-image: url(/fotosDestinos/Glaciar\ Perito\ Moreno.jpeg);
         grid-column: 1/2;
         grid-row: 7/8;
     }
 
     .ppca{
-        background-image: url(/fotos/Parque\ Nacional\ Copahue.jpeg);
+        background-image: url(/fotosDestinos/Parque\ Nacional\ Copahue.jpeg);
         grid-column: 1/2;
         grid-row: 8/9;
     }
 
     .pnla{
-        background-image: url(/fotos/Parque\ Nacional\ Lanín.jpeg);
+        background-image: url(/fotosDestinos/Parque\ Nacional\ Lanín.jpeg);
         grid-column: 1/2;
         grid-row: 9/10;
     }
 
     .pnlca{
-        background-image: url(/fotos/Parque\ Nacional\ Los\ Cardones.jpeg);
+        background-image: url(/fotosDestinos/Parque\ Nacional\ Los\ Cardones.jpeg);
         grid-column: 1/2;
         grid-row: 10/11;
     }
 
     .pnmla{
-        background-image: url(/fotos/Parque\ Nacional\ Monte\ León.jpeg);
+        background-image: url(/fotosDestinos/Parque\ Nacional\ Monte\ León.jpeg);
         grid-column: 1/2;
         grid-row: 11/12;
     }
 
     .sga{
-        background-image: url(/fotos/Salinas\ Grandes.jpeg);
+        background-image: url(/fotosDestinos/Salinas\ Grandes.jpeg);
         grid-column: 1/2;
         grid-row: 12/13;
     }
 
     .srdca{
-        background-image: url(/fotos/Santa\ Rosa\ de\ Calamuchita.jpeg);
+        background-image: url(/fotosDestinos/Santa\ Rosa\ de\ Calamuchita.jpeg);
         grid-column: 1/2;
         grid-row: 13/14;
 
     }
 
     .tga{
-        background-image: url(/fotos/Tolar\ Grande.jpeg);
-        grid-column: 2/3;
+        background-image: url(/fotosDestinos/Tolar\ Grande.jpeg);
+        grid-column: 1/2;
         grid-row: 14/15;
     }
 
@@ -1248,85 +1273,85 @@ html{
     }
 
     .blea{
-        background-image: url(/fotos/Bañado\ la\ Estrella.jpeg);
+        background-image: url(/fotosDestinos/Bañado\ la\ Estrella.jpeg);
         grid-column: 1/2;
         grid-row: 1/2;
     }
 
     .cdia{
-        background-image: url(/fotos/Cataratas\ del\ Iguazu.jpeg);
+        background-image: url(/fotosDestinos/Cataratas\ del\ Iguazu.jpeg);
         grid-column: 2/3;
         grid-row: 1/2;
     }
 
     .cdaa{
-        background-image: url(/fotos/Cañon\ de\ Atuel.jpeg);
+        background-image: url(/fotosDestinos/Cañon\ de\ Atuel.jpeg);
         grid-column: 1/2;
         grid-row: 2/3;
     }
 
     .cca{
-        background-image: url(/fotos/Cusi\ Cusi.jpeg);
+        background-image: url(/fotosDestinos/Cusi\ Cusi.jpeg);
         grid-column: 2/3;
         grid-row: 2/3;
     }
 
     .eca{
-        background-image: url(/fotos/El\ Chaltén.png);
+        background-image: url(/fotosDestinos/El\ Chaltén.png);
         grid-column: 1/2;
         grid-row: 3/4;
     }
 
     .eha{
-        background-image: url(/fotos/El\ Hornocal.jpeg);
+        background-image: url(/fotosDestinos/El\ Hornocal.jpeg);
         grid-column: 2/3;
         grid-row: 3/4;
     }
 
-    .mdqa{
-        background-image: url(/fotos/Mar\ del\ Plata.jpeg);
+    .gpma{
+        background-image: url(/fotosDestinos/Glaciar\ Perito\ Moreno.jpeg);
         grid-column: 1/2;
         grid-row: 4/5;
     }
 
     .ppca{
-        background-image: url(/fotos/Parque\ Nacional\ Copahue.jpeg);
+        background-image: url(/fotosDestinos/Parque\ Nacional\ Copahue.jpeg);
         grid-column: 2/3;
         grid-row: 4/5;
     }
 
     .pnla{
-        background-image: url(/fotos/Parque\ Nacional\ Lanín.jpeg);
+        background-image: url(/fotosDestinos/Parque\ Nacional\ Lanín.jpeg);
         grid-column: 1/2;
         grid-row: 5/6;
     }
 
     .pnlca{
-        background-image: url(/fotos/Parque\ Nacional\ Los\ Cardones.jpeg);
+        background-image: url(/fotosDestinos/Parque\ Nacional\ Los\ Cardones.jpeg);
         grid-column: 2/3;
         grid-row: 5/6;
     }
 
     .pnmla{
-        background-image: url(/fotos/Parque\ Nacional\ Monte\ León.jpeg);
+        background-image: url(/fotosDestinos/Parque\ Nacional\ Monte\ León.jpeg);
         grid-column: 1/2;
         grid-row: 6/7;
     }
 
     .sga{
-        background-image: url(/fotos/Salinas\ Grandes.jpeg);
+        background-image: url(/fotosDestinos/Salinas\ Grandes.jpeg);
         grid-column: 2/3;
         grid-row: 6/7;
     }
 
     .srdca{
-        background-image: url(/fotos/Santa\ Rosa\ de\ Calamuchita.jpeg);
+        background-image: url(/fotosDestinos/Santa\ Rosa\ de\ Calamuchita.jpeg);
         grid-column: 1/2;
         grid-row: 7/8;
     }
 
     .tga{
-        background-image: url(/fotos/Tolar\ Grande.jpeg);
+        background-image: url(/fotosDestinos/Tolar\ Grande.jpeg);
         grid-column: 2/3;
         grid-row: 7/8;
     }
@@ -1682,6 +1707,26 @@ html{
 
 
 @media only screen and (min-width:768px){
+    .glaciar{
+        width: 100%;
+        height: 450px;
+        background-image: url(/fotosGeneral/glaciar.jpg);
+        background-size: cover;
+    }
+
+    .lugares{
+        width: 100%;
+        height: 270px;
+    }
+
+    .lugar1 p{
+        font-family: 'Poiret One', cursive;
+        text-align: center;
+        font-size: 20px;
+        color: rgb(39, 43, 46);
+        padding: 40px 0px;
+    }
+
     section{
         background-color: white;
         height: 800px;
@@ -1700,86 +1745,86 @@ html{
     }
 
     .blea{
-        background-image: url(/fotos/Bañado\ la\ Estrella.jpeg);
+        background-image: url(/fotosDestinos/Bañado\ la\ Estrella.jpeg);
         grid-column: 1/2;
         grid-row: 1/2;
     }
 
     .cdia{
-        background-image: url(/fotos/Cataratas\ del\ Iguazu.jpeg);
+        background-image: url(/fotosDestinos/Cataratas\ del\ Iguazu.jpeg);
         grid-column: 2/3;
         grid-row: 1/2;
     }
 
     .cdaa{
-        background-image: url(/fotos/Cañon\ de\ Atuel.jpeg);
+        background-image: url(fotosDestinos/Cañon\ de\ Atuel.jpeg);
         grid-column: 3/4;
         grid-row: 1/2;
     }
 
     .cca{
-        background-image: url(/fotos/Cusi\ Cusi.jpeg);
+        background-image: url(/fotosDestinos/Cusi\ Cusi.jpeg);
         grid-column: 4/5;
         grid-row: 1/2;
     }
 
     .eca{
-        background-image: url(/fotos/El\ Chaltén.png);
+        background-image: url(/fotosDestinos/El\ Chaltén.png);
         grid-column: 1/2;
         grid-row: 2/3;
     }
 
     .eha{
-        background-image: url(/fotos/El\ Hornocal.jpeg);
+        background-image: url(/fotosDestinos/El\ Hornocal.jpeg);
         grid-column: 2/4;
         grid-row: 2/3;
     }
 
-    .mdqa{
-        background-image: url(/fotos/Mar\ del\ Plata.jpeg);
+    .gpma{
+        background-image: url(/fotosDestinos/Glaciar\ Perito\ Moreno.jpeg);
         grid-column: 4/5;
         grid-row: 2/3;
     }
 
     .ppca{
-        background-image: url(/fotos/Parque\ Nacional\ Copahue.jpeg);
+        background-image: url(/fotosDestinos/Parque\ Nacional\ Copahue.jpeg);
         grid-column: 1/2;
         grid-row: 3/4;
     }
 
     .pnla{
-        background-image: url(/fotos/Parque\ Nacional\ Lanín.jpeg);
+        background-image: url(/fotosDestinos/Parque\ Nacional\ Lanín.jpeg);
         grid-column: 2/4;
         grid-row: 3/4;
     }
 
     .pnlca{
-        background-image: url(/fotos/Parque\ Nacional\ Los\ Cardones.jpeg);
+        background-image: url(/fotosDestinos/Parque\ Nacional\ Los\ Cardones.jpeg);
         grid-column: 4/5;
         grid-row: 3/4;
     }
 
     .pnmla{
-        background-image: url(/fotos/Parque\ Nacional\ Monte\ León.jpeg);
+        background-image: url(/fotosDestinos/Parque\ Nacional\ Monte\ León.jpeg);
         grid-column: 1/2;
         grid-row: 4/5;
     }
 
     .sga{
-        background-image: url(/fotos/Salinas\ Grandes.jpeg);
+        background-image: url(/fotosDestinos/Salinas\ Grandes.jpeg);
         grid-column: 2/3;
         grid-row: 4/5;
     }
 
     .srdca{
-        background-image: url(/fotos/Santa\ Rosa\ de\ Calamuchita.jpeg);
+        background-image: url(/fotosDestinos/Santa\ Rosa\ de\ Calamuchita.jpeg);
         grid-column: 3/4;
         grid-row: 4/5;
 
     }
 
     .tga{
-        background-image: url(/fotos/Tolar\ Grande.jpeg);
+        background-image: url(/fotosDestinos/Tolar\ Grande.jpeg);
         grid-column: 4/5;
         grid-row: 4/5;
     }
@@ -1927,7 +1972,7 @@ html{
     }
 
     .gpm{
-        margin-top: 200px;
+        margin-top: 20px;
         grid-column: 1/2;
         grid-row: 7/8;
     }
@@ -1949,27 +1994,6 @@ html{
         margin-top: 20px;
     }
 
-    .mdq{
-        grid-column: 1/2;
-        grid-row: 8/9;
-    }
-
-    .mdq img{
-        margin-top: 15px;
-        border-radius: 50px;
-        width: 100%;
-    }
-
-    .mdq h4{
-        text-align: center;
-        font-family: 'Poiret One', cursive;
-    }
-
-    .mdq p{
-        font-family: 'Poiret One', cursive;
-        text-align: justify;
-        margin-top: 15px;
-    }
 
     .ppc{
         grid-column: 1/2;
@@ -1994,7 +2018,7 @@ html{
     }
 
     .pnl{
-        margin-top: 320px;
+        margin-top: 20px;
         grid-column: 1/2;
         grid-row: 10/11;
     }
@@ -2062,7 +2086,7 @@ html{
 
 
     .sg{
-        margin-top: 420px;
+        margin-top: 20px;
         grid-column: 1/2;
         grid-row: 13/14;
     }
@@ -2085,6 +2109,7 @@ html{
     }
 
     .srdc{
+        margin-top: 20px;
         grid-column: 1/2;
         grid-row: 14/15;
     }
@@ -2137,6 +2162,26 @@ html{
 
 
 @media only screen and (min-width:1400px){
+    .glaciar{
+        width: 100%;
+        height: 600px;
+        background-image: url(/fotosGeneral/glaciar.jpg);
+        background-size: cover;
+    }
+
+    .lugares{
+        width: 100%;
+        height: 270px;
+    }
+
+    .lugar1 p{
+        font-family: 'Poiret One', cursive;
+        text-align: center;
+        font-size: 20px;
+        color: rgb(39, 43, 46);
+        padding: 40px 0px;
+    }
+
     section{
         background-color: white;
         height: 1200px;
@@ -2155,86 +2200,86 @@ html{
     }
 
     .blea{
-        background-image: url(/fotos/Bañado\ la\ Estrella.jpeg);
+        background-image: url(/fotosDestinos/Bañado\ la\ Estrella.jpeg);
         grid-column: 1/2;
         grid-row: 1/2;
     }
 
     .cdia{
-        background-image: url(/fotos/Cataratas\ del\ Iguazu.jpeg);
+        background-image: url(/fotosDestinos/Cataratas\ del\ Iguazu.jpeg);
         grid-column: 2/3;
         grid-row: 1/2;
     }
 
     .cdaa{
-        background-image: url(/fotos/Cañon\ de\ Atuel.jpeg);
+        background-image: url(/fotosDestinos/Cañon\ de\ Atuel.jpeg);
         grid-column: 3/4;
         grid-row: 1/2;
     }
 
     .cca{
-        background-image: url(/fotos/Cusi\ Cusi.jpeg);
+        background-image: url(/fotosDestinos/Cusi\ Cusi.jpeg);
         grid-column: 4/5;
         grid-row: 1/2;
     }
 
     .eca{
-        background-image: url(/fotos/El\ Chaltén.png);
+        background-image: url(/fotosDestinos/El\ Chaltén.png);
         grid-column: 5/6;
         grid-row: 1/2;
     }
 
     .eha{
-        background-image: url(/fotos/El\ Hornocal.jpeg);
+        background-image: url(/fotosDestinos/El\ Hornocal.jpeg);
         grid-column: 6/7;
         grid-row: 1/2;
     }
 
-    .mdqa{
-        background-image: url(/fotos/Mar\ del\ Plata.jpeg);
+    .gpma{
+        background-image: url(/fotosDestinos/Glaciar\ Perito\ Moreno.jpeg);
         grid-column: 7/8;
         grid-row: 1/2;
     }
 
     .ppca{
-        background-image: url(/fotos/Parque\ Nacional\ Copahue.jpeg);
+        background-image: url(/fotosDestinos/Parque\ Nacional\ Copahue.jpeg);
         grid-column: 1/2;
         grid-row: 2/3;
     }
 
     .pnla{
-        background-image: url(/fotos/Parque\ Nacional\ Lanín.jpeg);
+        background-image: url(/fotosDestinos/Parque\ Nacional\ Lanín.jpeg);
         grid-column: 2/3;
         grid-row: 2/3;
     }
 
     .pnlca{
-        background-image: url(/fotos/Parque\ Nacional\ Los\ Cardones.jpeg);
+        background-image: url(/fotosDestinos/Parque\ Nacional\ Los\ Cardones.jpeg);
         grid-column: 3/4;
         grid-row: 2/3;
     }
 
     .pnmla{
-        background-image: url(/fotos/Parque\ Nacional\ Monte\ León.jpeg);
+        background-image: url(/fotosDestinos/Parque\ Nacional\ Monte\ León.jpeg);
         grid-column: 4/5;
         grid-row: 2/3;
     }
 
     .sga{
-        background-image: url(/fotos/Salinas\ Grandes.jpeg);
+        background-image: url(/fotosDestinos/Salinas\ Grandes.jpeg);
         grid-column: 5/6;
         grid-row: 2/3;
     }
 
     .srdca{
-        background-image: url(/fotos/Santa\ Rosa\ de\ Calamuchita.jpeg);
+        background-image: url(/fotosDestinos/Santa\ Rosa\ de\ Calamuchita.jpeg);
         grid-column: 6/7;
         grid-row: 2/3;
 
     }
 
     .tga{
-        background-image: url(/fotos/Tolar\ Grande.jpeg);
+        background-image: url(/fotosDestinos/Tolar\ Grande.jpeg);
         grid-column: 7/8;
         grid-row: 2/3;
     }
