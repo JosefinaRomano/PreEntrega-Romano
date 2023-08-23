@@ -112,7 +112,7 @@ html{
     }
 
     .flex{
-        width: 90%;
+        width: 70%;
         overflow-x: auto;
         display: flex;
         scroll-snap-type: x mandatory;
@@ -132,22 +132,26 @@ html{
         display: none;
     }
 
-    .secciones{
-        height: 100px;
+    .vermas{
+        margin-top: 85px;
+        height: 80px;
         text-align: center;
+        margin-top: 0 auto;
     }
 
-    .secciones a{
+    .vermas a{
+        background-color: #ebcda1;
         font-family: 'Poiret One', cursive;
         font-weight: bold;
         color: rgb(39, 43, 46);
         border-radius: 10px;
         font-size: 12px;
+        border: 15px solid #ebcda1;
         list-style: none;
         text-decoration: none;
     }
 
-    .secciones a:hover{
+    .vermas a:hover{
         color: white;
     }
 
@@ -320,13 +324,13 @@ html{
         display: none;
     }
 
-    .secciones{
+    .vermas{
         height: 100px;
         text-align: center;
         margin-top: 0 auto;
     }
 
-    .secciones a{
+    .vermas a{
         background-color: #ebcda1;
         font-family: 'Poiret One', cursive;
         font-weight: bold;
@@ -338,7 +342,7 @@ html{
         text-decoration: none;
     }
 
-    .secciones a:hover{
+    .vermas a:hover{
         color: white;
     }
 
@@ -375,6 +379,11 @@ html{
         padding: 20px;
         border: 2px solid #ebcda1;
         border-radius: 20px;
+        text-decoration: none;
+    }
+
+    footer div a:hover{
+        color: #ebcda1;
     }
 
     footer p{
@@ -441,7 +450,7 @@ html{
     .art1{
         height: 450px;
         width: 100%;
-        background-image: url(/fotos/fondo2.jpg);
+        background-image: url(/fotosGeneral/fondo2.jpg);
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -457,7 +466,7 @@ html{
     .art2{
         height: 450px;
         width: 100%;
-        background-image: url(/fotos/fondo1.jpg);
+        background-image: url(/fotosGeneral/fondo1.jpg);
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -498,7 +507,7 @@ html{
     }
 
     .flex{
-        width: 90%;
+        width: 60%;
         overflow-x: auto;
         display: flex;
         scroll-snap-type: x mandatory;
@@ -518,13 +527,13 @@ html{
         display: none;
     }
 
-    .secciones{
+    .vermas{
         height: 100px;
         text-align: center;
         margin-top: 0 auto;
     }
 
-    .secciones a{
+    .vermas a{
         background-color: #ebcda1;
         font-family: 'Poiret One', cursive;
         font-weight: bold;
@@ -536,7 +545,7 @@ html{
         text-decoration: none;
     }
 
-    .secciones a:hover{
+    .vermas a:hover{
         color: white;
     }
 
@@ -693,7 +702,7 @@ html{
     }
 
     .flex{
-        width: 90%;
+        width: 60%;
         overflow-x: auto;
         display: flex;
         scroll-snap-type: x mandatory;
@@ -713,13 +722,14 @@ html{
         display: none;
     }
 
-    .secciones{
+    .vermas{
         height: 100px;
+        width: 100%;
         text-align: center;
         margin-top: 0 auto;
     }
 
-    .secciones a{
+    .vermas a{
         background-color: #ebcda1;
         font-family: 'Poiret One', cursive;
         font-weight: bold;
@@ -731,7 +741,7 @@ html{
         text-decoration: none;
     }
 
-    .secciones a:hover{
+    .vermas a:hover{
         color: white;
     }
 
@@ -787,6 +797,16 @@ html{
         height: 300px;
         background-image: url(/fotosGeneral/glaciar.jpg);
         background-size: cover;
+    }
+
+    .up{
+        background-color: #ebcda1;
+        height: 20px;
+        width: 20px;
+        text-align: center;
+        position: fixed;
+        right: 5px;
+        bottom: 100px;
     }
 
     .lugares{
@@ -1255,6 +1275,18 @@ html{
     /*-------------480-----------*/
 
 @media only screen and (min-width:480px){
+    .up{
+        background-color: #ebcda1;
+        height: 30px;
+        width: 30px;
+        font-size: 20px;
+        text-align: center;
+        position: fixed;
+        right: 5px;
+        bottom: 100px;
+        border-radius: 10px;
+    }
+
     section{
         background-color: white;
         height: 800px;
@@ -1707,6 +1739,7 @@ html{
 
 
 @media only screen and (min-width:768px){
+
     .glaciar{
         width: 100%;
         height: 450px;
@@ -1725,6 +1758,18 @@ html{
         font-size: 20px;
         color: rgb(39, 43, 46);
         padding: 40px 0px;
+    }
+
+    .up{
+        background-color: #ebcda1;
+        height: 40px;
+        width: 40px;
+        font-size: 30px;
+        text-align: center;
+        position: fixed;
+        right: 5px;
+        bottom: 100px;
+        border-radius: 10px;
     }
 
     section{
@@ -2182,9 +2227,21 @@ html{
         padding: 40px 0px;
     }
 
+    .up{
+        background-color: #ebcda1;
+        height: 40px;
+        width: 40px;
+        font-size: 30px;
+        text-align: center;
+        position: fixed;
+        right: 15px;
+        bottom: 70px;
+        border-radius: 10px;
+    }
+
     section{
         background-color: white;
-        height: 1200px;
+        height: 600px;
         padding: 35px;
         display: grid;
         grid-template-columns: repeat(7, 1fr);
